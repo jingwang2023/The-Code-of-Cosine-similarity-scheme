@@ -33,15 +33,7 @@ WRS_M = function(ref0,ref1,test){
   m0=nrow(ref0) #choosing benchmark
   m1=nrow(ref1)  #remain reference
   n=nrow(test)
-  
-  if (m0==1){
-    ref0=as.vector(ref0)
-    X_b_med=ref0
-  }
-  else{
-    X_b_med = med(ref0, method = "Spatial")$median
-  }
-  
+ 
   mu0=colMeans(ref0)
   v=cov.shrink(ref0)
   
