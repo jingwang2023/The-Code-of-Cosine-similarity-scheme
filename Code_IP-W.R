@@ -10,24 +10,6 @@ rm(list=ls())
 # p: Number of the variables in a sample
 # nu: Partition size of reference sample, mu=max
 # H: Trial value of the Upper Control Limit
-
-###### Computation of IC-MRL for IP Design for a given (m,n,p,H)  #######
-
-rm(list = ls())
-
-#### this one is the latest #####
-
-library("mvtnorm")
-library(MASS)
-
-
-######## m: reference sample size ########
-######## n: test sample size      ########
-######## p: dimension             ########
-
-
-####################################################################
-
 #ref0: subsample of reference sample
 #ref1: Reference sample excluding subsample for benchmarking
 #test: test sample
