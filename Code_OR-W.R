@@ -5,7 +5,7 @@ library(lcmix)
 
 rm(list=ls())
 
-IC.MRL2=function(m,n,p,H,per,del1,del2,del3,rho,lim,sim.num,dff){
+IC.MRL2=function(m,n,p,H,per,del1,del2,del3,rho,lim,sim.num){
   set.seed(060819)
   cov.mat=matrix(rep(rho,p*p),p,p)+diag(rep((1-rho),p))
   
