@@ -8,7 +8,7 @@ rm(list=ls())
 # m: Size of the Reference Sample
 # n: Size of the Test sample
 # p: Number of the variables in a sample
-# nu: Partition size of reference sample, mu=max
+# nu: Partition size of reference sample
 # H: Trial value of the Upper Control Limit
 #ref0: subsample of reference sample
 #ref1: Reference sample excluding subsample for benchmarking
