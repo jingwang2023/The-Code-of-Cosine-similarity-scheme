@@ -15,19 +15,16 @@ rm(list=ls())
 
 ###### Computation of IC-MRL for IP Design for a given (m,n,p,H)  #######
 
-
 ######## m: reference sample size ########
 ######## n: test sample size      ########
 ######## p: dimension             ########
-
-#######################################################################################
-
 
 ####################################################################
 
 #ref0: subsample of reference sample
 #ref1: Reference sample excluding subsample for benchmarking
 #test: test sample
+####################################################################
 
 WRS_M = function(ref0,ref1,test){
   m0=nrow(ref0) #choosing benchmark
